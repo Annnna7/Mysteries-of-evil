@@ -16,6 +16,7 @@ public class NewBehaviourScript : MonoBehaviour
 
     void Start()
     {
+        Cursor.lockState = CursorLockMode.Confined;
         CreateFieldPrefabs();
         CreateControlPrefabs();
         CreateSudokuObject();

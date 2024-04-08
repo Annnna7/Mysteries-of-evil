@@ -12,7 +12,7 @@ public class Moving : MonoBehaviour
     float startPosY;
     public GameObject form; //прозрачна€ форма-помощник 
     private bool placed = false; //в нужном ли месте пазл 
-    
+
     void OnMouseDown()
     {
         if (Input.GetMouseButtonDown(0))
@@ -47,7 +47,8 @@ public class Moving : MonoBehaviour
 
     void Update()
     {
-        if(move == true)
+        Cursor.lockState = CursorLockMode.Confined;
+        if (move == true)
         {
             mousePos = Input.mousePosition;
             this.gameObject.transform.localPosition = new Vector2(mousePos.x - startPosX, mousePos.y - startPosY);

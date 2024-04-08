@@ -945,6 +945,7 @@ MonoBehaviour:
   FieldPrefab: {fileID: 3722834436613017965, guid: 61a8b1cc45efbb1449f69aea472baf53, type: 3}
   ControlPanel: {fileID: 245782341}
   ControlPrefab: {fileID: 3722834436613017965, guid: 867f53499e3a40b4d82caecd25f291cb, type: 3}
+  myImage: {fileID: 0}
 --- !u!82 &1441730145
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1233,7 +1234,7 @@ Camera:
   m_GameObject: {fileID: 2091397237}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 2
+  m_ClearFlags: 3
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
