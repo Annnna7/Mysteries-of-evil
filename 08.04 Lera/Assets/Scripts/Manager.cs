@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Manager : MonoBehaviour
 {
@@ -12,6 +14,8 @@ public class Manager : MonoBehaviour
     private int emptyLocation;
     private int size;
     private bool shuffling = false;
+    private bool isShuffling = false;
+
     private void CreateGamePieces(float gapThickness)
     {
         float width = 1 / (float)size;
@@ -80,6 +84,7 @@ public class Manager : MonoBehaviour
                     }
                 }
             }
+            //Check();
         }
     }
     private bool SwapIfValid(int i, int offset, int colCheck)
@@ -106,6 +111,11 @@ public class Manager : MonoBehaviour
 
     private IEnumerator WaitShuffle(float duration)
     {
+        if (isShuffling) SceneManager.LoadScene("WinEnd");
+
+        isShuffling = true;
+
+
         yield return new WaitForSeconds(duration);
         Shuffle();
         shuffling = false;

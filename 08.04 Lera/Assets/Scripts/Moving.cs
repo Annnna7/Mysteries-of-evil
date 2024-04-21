@@ -31,7 +31,7 @@ public class Moving : MonoBehaviour
         {
             if (!placed)
             {
-                //WinScript.AddElement();
+                WinScript.AddElement();
                 SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
                 this.transform.position = new Vector2(form.transform.position.x, form.transform.position.y);
                 if(spriteRenderer != null)
