@@ -22,8 +22,7 @@ public class Counter : MonoBehaviour
         myText.text = inStock + "/" + myNumber;
         if (inStock == myNumber)
         {
-            myImage.GetComponent<Image>().enabled = true;
-            myImage.transform.GetChild(0).GetComponent<Image>().enabled = true;
+            SceneManager.LoadScene("WinEnd");
             myTimer.enabled = false;
         }
         if (inStock != myNumber & myTimer.myTime < 1)

@@ -46,7 +46,7 @@ public class NewBehaviourScript : MonoBehaviour
         }
         if (isWin)
         {
-            SceneManager.LoadScene("Differences");
+            SceneManager.LoadScene("WinEnd");
         }
         else
         {

@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Interactive : MonoBehaviour
 {
-    /*[SerializeField] float distance;
+    [SerializeField] float distance;
     RaycastHit hit;
     //public Counter counter;
 
@@ -23,9 +23,9 @@ public class Interactive : MonoBehaviour
                 }
             }
         }
-    }*/
+    }
 
-    [SerializeField] float distance;
+    /*[SerializeField] float distance;
     RaycastHit hit;
     public Counter counter;
 
@@ -66,5 +66,5 @@ public class Interactive : MonoBehaviour
                 }
             }
         }
-    }
+    }*/
 }
