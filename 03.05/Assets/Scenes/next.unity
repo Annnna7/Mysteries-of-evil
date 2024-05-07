@@ -962,7 +962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 200}
+  m_AnchoredPosition: {x: 0, y: 165}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &361705610
@@ -2714,6 +2714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Puzzle: {fileID: 1154142075}
   Panel: {fileID: 466019423}
+  winPanel: {fileID: 0}
   time: {fileID: 361705608}
 --- !u!1 &1148707579
 GameObject:

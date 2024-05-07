@@ -66,7 +66,7 @@ public class Manager2 : MonoBehaviour
         if (!shuffling && CheckCompletion())
         {
             shuffling = true;
-            StartCoroutine(WaitShuffle(0.5f));
+            StartCoroutine(WaitShuffle(2f));
         }
         if (Input.GetMouseButtonDown(0))
         {
