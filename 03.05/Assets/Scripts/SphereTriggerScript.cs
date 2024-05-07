@@ -41,19 +41,19 @@ public class SphereTriggerScript : MonoBehaviour
         }
         if (myNumber == 5 && SceneManage.number == 5)
         {
-            SceneManager.LoadScene("Sudoku");
+            SceneManager.LoadScene("SimpPuzz2");
             SceneManage.PlusScene();
             return;
         }
         if (myNumber == 6 && SceneManage.number == 6)
         {
-            SceneManager.LoadScene("Base");
+            SceneManager.LoadScene("next2");
             SceneManage.PlusScene();
             return;
         }
         if (myNumber == 7 && SceneManage.number == 7)
         {
-            SceneManager.LoadScene("Base");
+            SceneManager.LoadScene("Sudoku");
             SceneManage.PlusScene();
             return;
         }

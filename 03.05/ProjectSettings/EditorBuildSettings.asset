@@ -24,11 +24,17 @@ EditorBuildSettings:
     path: Assets/Scenes/next.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
+    path: Assets/Scenes/next2.unity
+    guid: cdc597f589a4cf645bbf1134ac229210
+  - enabled: 1
     path: Assets/Scenes/WinEnd.unity
     guid: 9323a4ecd9c076a43ba63816b34fd1d8
   - enabled: 1
     path: Assets/Scenes/SimpPuzz.unity
     guid: 953c45682c221b543b0913f22b316f05
+  - enabled: 1
+    path: Assets/Scenes/SimpPuzz2.unity
+    guid: 296ecbc56b5c0bc42a7312663a064f9b
   - enabled: 1
     path: Assets/Scenes/Base.unity
     guid: 1a4ed16604d36ab4fb5e08ac20cf280d
