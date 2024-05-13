@@ -30,7 +30,7 @@ public class SudokuGenerator
         List<Tuple<int, int>> values = GetValues();
         int a = SceneManager.GetActiveScene().buildIndex;
         int endValueIndex = 0;
-        if (a == 8)
+        if (a == 10)
             endValueIndex = 45;
         if (a == 2)
             endValueIndex = 65;

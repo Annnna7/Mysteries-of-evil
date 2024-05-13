@@ -8,7 +8,14 @@ public class Interactive : MonoBehaviour
 {
     [SerializeField] float distance;
     RaycastHit hit;
+    public AudioClip musicClip; 
+    private AudioSource musicSource;
     //public Counter counter;
+
+    void Start()
+    {
+        musicSource = GetComponent<AudioSource>();
+    }
 
     private void FixedUpdate()
     {
@@ -18,6 +25,7 @@ public class Interactive : MonoBehaviour
             {
                 if (hit.transform.tag == "AnimatedDoor")
                 {
+                    musicSource.PlayOneShot(musicClip);
                     Animator anim = hit.transform.GetComponent<Animator>();
                     anim.SetBool("Open", !anim.GetBool("Open"));
                 }

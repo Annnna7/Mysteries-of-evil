@@ -111,7 +111,11 @@ public class Manager2 : MonoBehaviour
 
     private IEnumerator WaitShuffle(float duration)
     {
-        if (isShuffling) SceneManager.LoadScene("WinEnd");
+        if (isShuffling)
+        {
+            SceneManage.PlusWin();
+            SceneManager.LoadScene("WinEnd");
+        }
 
         isShuffling = true;
 

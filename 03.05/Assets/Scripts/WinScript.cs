@@ -23,6 +23,7 @@ public class WinScript : MonoBehaviour
         if(fullElement == myElement)
         {
             //Panel.SetActive(false);
+            SceneManage.PlusWin();
             SceneManager.LoadScene("WinEnd");
             //winPanel.SetActive(true);  
             //time.SetActive(false);

@@ -46,6 +46,7 @@ public class NewBehaviourScript : MonoBehaviour
         }
         if (isWin)
         {
+            SceneManage.PlusWin();
             SceneManager.LoadScene("WinEnd");
         }
         else

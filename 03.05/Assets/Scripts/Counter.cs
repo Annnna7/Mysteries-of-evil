@@ -22,6 +22,7 @@ public class Counter : MonoBehaviour
         myText.text = inStock + "/" + myNumber;
         if (inStock == myNumber)
         {
+            SceneManage.PlusWin();
             SceneManager.LoadScene("WinEnd");
             myTimer.enabled = false;
         }

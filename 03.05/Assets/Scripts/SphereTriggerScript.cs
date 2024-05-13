@@ -71,7 +71,10 @@ public class SphereTriggerScript : MonoBehaviour
         }
         if (myNumber == 10 || myNumber == 9)
         {
-            SceneManager.LoadScene("Base");
+            if (SceneManage.number >= 4 && SceneManage.gameWin >= 4)
+                SceneManager.LoadScene("TheEnd");
+            else
+                SceneManager.LoadScene("Base");
             return;
         }
     }

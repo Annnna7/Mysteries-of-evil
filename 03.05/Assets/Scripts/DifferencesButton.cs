@@ -15,7 +15,7 @@ public class DifferencesButton : MonoBehaviour
         Cursor.lockState = CursorLockMode.Confined;
         myButton1 = GetComponent<Button>();
         myImage1 = GetComponent<Image>();
-        myButton1.onClick.AddListener(MyVoid);
+        myButton1.onClick.AddListener(MyVoid); 
     }
 
     void MyVoid()

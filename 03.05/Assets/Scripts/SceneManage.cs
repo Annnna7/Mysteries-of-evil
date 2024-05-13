@@ -5,12 +5,13 @@ using UnityEngine;
 public class SceneManage : MonoBehaviour
 {
     public static int number = 0;
-    public static bool sudokuWin = false;
-    public static bool puzzWin = false;
-    public static bool diffWin = false;
-    public static bool nextWin = false;
+    public static int gameWin = 0;
     public static void PlusScene()
     {
         number++;
+    }
+    public static void PlusWin()
+    {
+        gameWin++;
     }
 }
