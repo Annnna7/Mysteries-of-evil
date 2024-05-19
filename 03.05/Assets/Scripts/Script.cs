@@ -9,7 +9,7 @@ public class Script : MonoBehaviour
     private void Update()
     {
         int a = myCounter.inStock;
-        if (Input.GetMouseButtonDown(0) && ) { 
+        if (Input.GetMouseButtonDown(0)) { 
             Debug.Log("AAAAAAAAAAAA");
         }
         isCliked = false;
