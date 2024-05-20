@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class Counter : MonoBehaviour
 {
@@ -19,6 +20,13 @@ public class Counter : MonoBehaviour
 
     void Update()
     {
+        if (DropdownExample.isDiff)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                Invoke("DelayedMethod", 0.1f);
+            }
+        }
         myText.text = inStock + "/" + myNumber;
         if (inStock == myNumber)
         {
@@ -31,5 +39,10 @@ public class Counter : MonoBehaviour
             SceneManager.LoadScene("Screamer");
             myTimer.enabled = false;
         }
+    }
+
+    void DelayedMethod()
+    {
+        myTimer.myTime -= 10;
     }
 }

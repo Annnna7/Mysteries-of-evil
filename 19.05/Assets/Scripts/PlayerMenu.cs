@@ -7,7 +7,9 @@ using UnityEngine.SceneManagement;
 public class PlayerMenu : MonoBehaviour
 {
     public bool isPaused;
+    public bool isOpen = false;
     public GameObject pauseMenuUi;
+    public GameObject settingsMenu;
 
     void Update()
     {
@@ -17,11 +19,11 @@ public class PlayerMenu : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (isPaused)
+            if (isPaused && !isOpen)
             {
                 Resume();
             }
-            else
+            else if (!isOpen)
             {
                 Pause();
             }
@@ -53,5 +55,18 @@ public class PlayerMenu : MonoBehaviour
     {
         //Time.timeScale = 1f;
         SceneManager.LoadScene("_Menu");
+    }
+    public void Settings()
+    {
+        pauseMenuUi.SetActive(false);
+        settingsMenu.SetActive(true);
+        isOpen = true;
+    }
+
+    public void Back()
+    {
+        pauseMenuUi.SetActive(true);
+        settingsMenu.SetActive(false);
+        isOpen = false;
     }
 }

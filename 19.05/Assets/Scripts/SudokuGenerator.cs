@@ -31,9 +31,13 @@ public class SudokuGenerator
         int a = SceneManager.GetActiveScene().buildIndex;
         int endValueIndex = 0;
         if (a == 10)
-            endValueIndex = 45;
+            endValueIndex = 70;
         if (a == 2)
-            endValueIndex = 65;
+            endValueIndex = 50;
+        if (DropdownExample.isDiff) 
+        {
+            endValueIndex -= 10;
+        } 
         bool isFinish = false;
         while (!isFinish)
         {

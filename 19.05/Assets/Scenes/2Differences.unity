@@ -219,7 +219,7 @@ GameObject:
   - component: {fileID: 259815364}
   - component: {fileID: 259815363}
   - component: {fileID: 259815365}
-  m_Layer: 5
+  m_Layer: 6
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,11 +238,7 @@ RectTransform:
   m_LocalScale: {x: 1.9, y: 1.9, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1270722029}
-  - {fileID: 1703980296}
-  - {fileID: 975183432}
-  - {fileID: 1684749900}
-  - {fileID: 727128183}
+  - {fileID: 1969553910}
   m_Father: {fileID: 1622627534}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -300,16 +296,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 588af475338aafa4c8e81e6e971afe6e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  collider1: {fileID: 1270722034}
-  button2: {fileID: 0}
-  button3: {fileID: 0}
-  button4: {fileID: 0}
-  button5: {fileID: 0}
-  button6: {fileID: 0}
-  button7: {fileID: 0}
-  button8: {fileID: 0}
-  button9: {fileID: 0}
-  button10: {fileID: 0}
 --- !u!1 &344253937
 GameObject:
   m_ObjectHideFlags: 0
@@ -444,6 +430,7 @@ MonoBehaviour:
   myButton1: {fileID: 434124112}
   myButton2: {fileID: 1684749902}
   myCounter: {fileID: 1195280100}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &434124112
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -632,18 +619,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 727128182}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0019175638, w: 0.99999815}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5590289, y: 0.5590289, z: 0.71436876}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1059363279}
   - {fileID: 1591901296}
-  m_Father: {fileID: 259815362}
+  m_Father: {fileID: 1969553910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.22}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 60.5, y: 38.2}
+  m_AnchoredPosition: {x: 161.69998, y: 1.6999893}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &727128184
@@ -661,6 +648,7 @@ MonoBehaviour:
   myButton1: {fileID: 727128185}
   myButton2: {fileID: 1059363281}
   myCounter: {fileID: 1195280100}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &727128185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1014,18 +1002,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 975183431}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0019175638, w: 0.99999815}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8318214, y: 0.8318214, z: 0}
+  m_LocalScale: {x: 1.4879754, y: 1.4879754, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1591398966}
   - {fileID: 698824622}
-  m_Father: {fileID: 259815362}
+  m_Father: {fileID: 1969553910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.22}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 39, y: 52.4}
+  m_AnchoredPosition: {x: 123.1433, y: 26.9535}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &975183433
@@ -1043,6 +1031,7 @@ MonoBehaviour:
   myButton1: {fileID: 975183434}
   myButton2: {fileID: 1591398968}
   myCounter: {fileID: 1195280100}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &975183434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1180,6 +1169,7 @@ MonoBehaviour:
   myButton1: {fileID: 1059363281}
   myButton2: {fileID: 727128185}
   myCounter: {fileID: 1195280100}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &1059363281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1623,18 +1613,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1270722028}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0019175638, w: 0.99999815}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7187726, y: 0.7187726, z: 0.71436876}
+  m_LocalScale: {x: 1.2857518, y: 1.2857518, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1444228085}
   - {fileID: 895250814}
-  m_Father: {fileID: 259815362}
+  m_Father: {fileID: 1969553910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.22}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 26.99, y: -5.99}
+  m_AnchoredPosition: {x: 102.06035, y: -77.57709}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1270722030
@@ -1734,6 +1724,7 @@ MonoBehaviour:
   myButton1: {fileID: 1270722030}
   myButton2: {fileID: 1444228087}
   myCounter: {fileID: 1195280100}
+  myTimer: {fileID: 1564935251}
 --- !u!65 &1270722034
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1810,6 +1801,7 @@ MonoBehaviour:
   myButton1: {fileID: 1444228087}
   myButton2: {fileID: 1270722030}
   myCounter: {fileID: 1195280100}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &1444228087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2040,6 +2032,7 @@ MonoBehaviour:
   myButton1: {fileID: 1591398968}
   myButton2: {fileID: 975183434}
   myCounter: {fileID: 1195280100}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &1591398968
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2213,7 +2206,6 @@ GameObject:
   - component: {fileID: 1622627533}
   - component: {fileID: 1622627532}
   - component: {fileID: 1622627531}
-  - component: {fileID: 1622627535}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2306,19 +2298,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1622627535
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1622627530}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16d8e288aca976a45bd7a3ad839c85cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myCounter: {fileID: 1195280100}
 --- !u!1 &1674020962
 GameObject:
   m_ObjectHideFlags: 0
@@ -2425,18 +2404,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684749899}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0019175638, w: 0.99999815}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.8518263, y: 1.8518263, z: 1.4287375}
+  m_LocalScale: {x: 3.3125763, y: 3.3125763, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 434124110}
   - {fileID: 1674020963}
-  m_Father: {fileID: 259815362}
+  m_Father: {fileID: 1969553910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.22}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 75.4, y: -23}
+  m_AnchoredPosition: {x: 188.77298, y: -107.67253}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1684749901
@@ -2454,6 +2433,7 @@ MonoBehaviour:
   myButton1: {fileID: 1684749902}
   myButton2: {fileID: 434124112}
   myCounter: {fileID: 1195280100}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &1684749902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2563,18 +2543,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1703980295}
-  m_LocalRotation: {x: -0, y: -0, z: -0.0019175638, w: 0.99999815}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.96572006, y: 0.96572006, z: 0.71436876}
+  m_LocalScale: {x: 1.7274953, y: 1.7274953, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1707448912}
   - {fileID: 344253938}
-  m_Father: {fileID: 259815362}
+  m_Father: {fileID: 1969553910}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.22}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 47.5, y: 24.1}
+  m_AnchoredPosition: {x: 138.54228, y: -23.611307}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1703980297
@@ -2592,6 +2572,7 @@ MonoBehaviour:
   myButton1: {fileID: 1703980298}
   myButton2: {fileID: 1707448914}
   myCounter: {fileID: 1195280100}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &1703980298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2729,6 +2710,7 @@ MonoBehaviour:
   myButton1: {fileID: 1707448914}
   myButton2: {fileID: 1703980298}
   myCounter: {fileID: 1195280100}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &1707448914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3077,6 +3059,46 @@ Transform:
   - {fileID: 179986978}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1969553909
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1969553910}
+  m_Layer: 5
+  m_Name: Buttons
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1969553910
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1969553909}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0019175638, w: 0.99999815}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.559029, y: 0.559029, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 727128183}
+  - {fileID: 1684749900}
+  - {fileID: 975183432}
+  - {fileID: 1703980296}
+  - {fileID: 1270722029}
+  m_Father: {fileID: 259815362}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -29.897957, y: 37.596336}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2107081453
 GameObject:
   m_ObjectHideFlags: 0

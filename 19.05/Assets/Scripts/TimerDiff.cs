@@ -14,9 +14,8 @@ public class TimerDiff : MonoBehaviour
         myText = GetComponent<Text>();
     }
 
-    // Update is called once per frame
     void Update()
-    {
+    { 
         myText.text = "Time:" + myTime;
         gameTime += 1 * Time.deltaTime;
         if (gameTime > 1)

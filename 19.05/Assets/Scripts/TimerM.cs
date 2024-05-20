@@ -11,6 +11,10 @@ public class TimerM : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (DropdownExample.isDiff)
+        {
+            timeStart -= 20;
+        }
         timerText.text = timeStart.ToString();
     }
 
