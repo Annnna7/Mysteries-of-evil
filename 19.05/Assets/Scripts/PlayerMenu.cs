@@ -51,7 +51,7 @@ public class PlayerMenu : MonoBehaviour
     }
     public void MenuButton()
     {
-        //Time.timeScale = 1f;
+        Time.timeScale = 1f;
         SceneManager.LoadScene("_Menu");
     }
 }
