@@ -8,14 +8,6 @@ public class Interactive : MonoBehaviour
 {
     [SerializeField] float distance;
     RaycastHit hit;
-    public AudioClip musicClip; 
-    private AudioSource musicSource;
-    //public Counter counter;
-
-    void Start()
-    {
-        musicSource = GetComponent<AudioSource>();
-    }
 
     private void FixedUpdate()
     {
@@ -29,6 +21,7 @@ public class Interactive : MonoBehaviour
                     if (anim != null)
                     {
                         anim.SetBool("Open", !anim.GetBool("Open"));
+                        AudioManager.instance.Play("Door");
                     }
                 }
             }

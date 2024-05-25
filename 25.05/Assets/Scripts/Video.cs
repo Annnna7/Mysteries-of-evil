@@ -14,7 +14,7 @@ public class Video : MonoBehaviour
         timer += Time.deltaTime;
 
         // Проверяем, прошло ли уже 30 секунд
-        if (timer >= 30f)
+        if (timer >= 29f)
         {
             SceneManager.LoadScene("End");
         }
