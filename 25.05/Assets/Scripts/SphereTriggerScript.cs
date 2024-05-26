@@ -57,7 +57,7 @@ public class SphereTriggerScript : MonoBehaviour
             SceneManage.PlusScene();
             return;
         }
-        if (myNumber == 10 || myNumber == 9)
+        if (myNumber == 8)
         {
             if (SceneManage.number >= 8 && SceneManage.gameWin >= 4)
                 SceneManager.LoadScene("Happy");

@@ -4451,7 +4451,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e45e2b807ef526d48991cbb84c0b9658, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myNumber: 9
+  myNumber: 8
 --- !u!135 &269899887
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8784,8 +8784,8 @@ GameObject:
   - component: {fileID: 507527586}
   - component: {fileID: 507527585}
   - component: {fileID: 507527584}
-  - component: {fileID: 507527587}
   - component: {fileID: 507527588}
+  - component: {fileID: 507527587}
   m_Layer: 0
   m_Name: Door
   m_TagString: AnimatedDoor
@@ -11121,6 +11121,8 @@ GameObject:
   - component: {fileID: 637782653}
   - component: {fileID: 637782652}
   - component: {fileID: 637782651}
+  - component: {fileID: 637782655}
+  - component: {fileID: 637782654}
   m_Layer: 0
   m_Name: Door
   m_TagString: AnimatedDoor
@@ -11215,6 +11217,37 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &637782654
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637782649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34a7ad885781f84990c591dfbd18bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myNumber: 8
+--- !u!114 &637782655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637782649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
 --- !u!43 &645894037
 Mesh:
   m_ObjectHideFlags: 0
@@ -27083,6 +27116,9 @@ GameObject:
   - component: {fileID: 1732701169}
   - component: {fileID: 1732701168}
   - component: {fileID: 1732701167}
+  - component: {fileID: 1732701172}
+  - component: {fileID: 1732701171}
+  - component: {fileID: 1732701170}
   m_Layer: 0
   m_Name: Door
   m_TagString: AnimatedDoor
@@ -27177,6 +27213,50 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1732701170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732701165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34a7ad885781f84990c591dfbd18bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myNumber: 0
+--- !u!114 &1732701171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732701165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &1732701172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1732701165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a34a7ad885781f84990c591dfbd18bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myNumber: 8
 --- !u!1 &1744476977
 GameObject:
   m_ObjectHideFlags: 0
@@ -28846,7 +28926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e45e2b807ef526d48991cbb84c0b9658, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myNumber: 10
+  myNumber: 8
 --- !u!135 &1816885168
 SphereCollider:
   m_ObjectHideFlags: 0
