@@ -55,6 +55,7 @@ public class PlayerMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene("_Menu");
+        ResumeGame.isRes = true;
     }
     public void Settings()
     {
