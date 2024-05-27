@@ -574,7 +574,7 @@ MonoBehaviour:
   myButton1: {fileID: 353531254}
   myButton2: {fileID: 975183434}
   myCounter: {fileID: 1195280100}
-  myTimer: {fileID: 0}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &353531254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -712,7 +712,7 @@ MonoBehaviour:
   myButton1: {fileID: 392019266}
   myButton2: {fileID: 1684749902}
   myCounter: {fileID: 1195280100}
-  myTimer: {fileID: 0}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &392019266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1014,7 +1014,7 @@ MonoBehaviour:
   myButton1: {fileID: 727128185}
   myButton2: {fileID: 1571710512}
   myCounter: {fileID: 1195280100}
-  myTimer: {fileID: 0}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &727128185
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1397,7 +1397,7 @@ MonoBehaviour:
   myButton1: {fileID: 975183434}
   myButton2: {fileID: 353531254}
   myCounter: {fileID: 1195280100}
-  myTimer: {fileID: 0}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &975183434
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1793,7 +1793,7 @@ MonoBehaviour:
   myButton1: {fileID: 1270722030}
   myButton2: {fileID: 1605025448}
   myCounter: {fileID: 1195280100}
-  myTimer: {fileID: 0}
+  myTimer: {fileID: 1564935251}
 --- !u!1 &1494606105
 GameObject:
   m_ObjectHideFlags: 0
@@ -2021,7 +2021,7 @@ MonoBehaviour:
   myButton1: {fileID: 1571710512}
   myButton2: {fileID: 727128185}
   myCounter: {fileID: 1195280100}
-  myTimer: {fileID: 0}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &1571710512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2238,7 +2238,7 @@ MonoBehaviour:
   myButton1: {fileID: 1605025448}
   myButton2: {fileID: 1270722030}
   myCounter: {fileID: 1195280100}
-  myTimer: {fileID: 0}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &1605025448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2560,7 +2560,7 @@ MonoBehaviour:
   myButton1: {fileID: 1684749902}
   myButton2: {fileID: 392019266}
   myCounter: {fileID: 1195280100}
-  myTimer: {fileID: 0}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &1684749902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2699,7 +2699,7 @@ MonoBehaviour:
   myButton1: {fileID: 1703980298}
   myButton2: {fileID: 2097911762}
   myCounter: {fileID: 1195280100}
-  myTimer: {fileID: 0}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &1703980298
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3024,7 +3024,7 @@ MonoBehaviour:
   myButton1: {fileID: 2097911762}
   myButton2: {fileID: 1703980298}
   myCounter: {fileID: 1195280100}
-  myTimer: {fileID: 0}
+  myTimer: {fileID: 1564935251}
 --- !u!114 &2097911762
 MonoBehaviour:
   m_ObjectHideFlags: 0
